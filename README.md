@@ -1,8 +1,5 @@
 ## MNIST Digit Classifier with ANN & CNN
 
-````markdown
-# 🧠 Handwritten Digit Classifier — ANN vs CNN (MNIST Dataset)
-
 This project implements and compares two deep learning models — a **Dense Neural Network (ANN)** and a **Convolutional Neural Network (CNN)** — to classify handwritten digits (0–9) using the MNIST dataset. Regularization methods such as Dropout, Batch Normalization, and L2 weight decay are applied to evaluate model generalization.
 
 ---
@@ -162,6 +159,3 @@ This project is licensed under the MIT License.
 
 ```
 
----
-
-```
