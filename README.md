@@ -75,12 +75,12 @@ Conv2D and Dense layers use **L2 kernel regularization**.
 
 ## 🔁 Comparison: ANN vs CNN
 
-| Metric               | ANN (Basic) | ANN + L2 | CNN (Basic) | CNN + L2 |
-| -------------------- | ----------- | -------- | ----------- | -------- |
-| Final Train Accuracy | \~98%       | \~97.5%  | \~99%       | \~98.8%  |
-| Final Val Accuracy   | \~97–98%    | \~97.5%  | \~98.5–99%  | \~98.6%  |
-| Test Accuracy        | \~97.8%     | \~97.5%  | \~98.8%     | \~98.6%  |
-| Params               | \~300k+     | Same     | \~1.2M+     | Same     |
+| Metric               | ANN (Basic) | ANN + L2 | CNN         | 
+| -------------------- | ----------- | -------- | ----------- | 
+| Final Train Accuracy | \~98%       | \~97.5%  | \~99.6%       | 
+| Final Val Accuracy   | \~97–98%    | \~97.5%  | \~99.3%  | 
+| Test Accuracy        | \~97.8%     | \~96.5%  | \~99%     | 
+| Params               | \~300k+     | Same     | \~1.2M+     | 
 
 ✅ **CNN consistently outperforms ANN**, especially on unseen data.
 
